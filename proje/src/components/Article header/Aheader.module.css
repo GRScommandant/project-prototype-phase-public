@@ -1,0 +1,31 @@
+@font-face {
+    font-family:yekta;
+    src: url('../../fonts/Yekan.woff');
+}
+.container {
+width: 100%;
+height: auto;
+}
+
+.subt {
+font-family:yekta;
+font-size: 30px;
+color: rgb(0, 0, 0);
+direction: rtl;
+}
+.contentboxes {
+display: inline-block;
+width: 100%;
+}
+.content{
+    font-family:yekta;
+    color: rgb(167, 167, 167);
+    text-align: center;
+    direction: rtl;
+    display: inline-block;
+    width: 150px;
+    height:60px;
+    padding-left:10px;
+    padding-right: 10px;
+
+}

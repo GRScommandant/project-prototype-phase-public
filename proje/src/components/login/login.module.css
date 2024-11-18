@@ -1,0 +1,92 @@
+@font-face {
+    font-family: yekta;
+    src: url('../../fonts/Yekan.woff');
+}
+.container {
+    max-width:1100px;
+    max-height: 2000px;
+    width: 100%;
+    margin-top: 150px;
+    height:100%;
+    display: inline-block;
+    
+    
+    }
+    .contentbox {
+    width: 100%;
+    height: 70%;
+    display: inline-block;
+    }
+    .contents {
+    border:1px;
+    box-shadow: 1px 1px 1px 2px rgb(207, 207, 207);
+    display: inline-block;   
+    width:30%;
+    height: 500px;
+    border-radius: 10px;
+    }
+    .ht {
+        font-family: yekta;
+        font-size:34px;
+    }
+    .textboxcon{
+        width: 100%;
+        text-align: center;
+        margin-top: 5%;
+        display: inline-block;
+    }
+    .textbox {
+        padding:0;
+        margin: 0;
+        width: 90%;
+        height:25px;
+        border-radius:5px;
+        border:1px solid black;
+        display: inline-block;
+        text-align: right;
+    }
+    .textbox:focus{
+      outline: 2px solid rgb(0, 153, 255) ;
+      border-radius: 5px;
+    }
+    .t {
+        padding: 0;
+        margin: 0;
+        font-family: yekta;
+        direction: rtl;
+        text-align: right;
+        padding-right:5px;    
+
+    }
+    .submitb {
+        width: 100%;
+        text-align: center;
+        margin-top: 10%;
+        display: inline-block;
+    }
+    .submitbutton {
+        width: 60%;
+        text-align: center;
+        height:30px;
+        background-color: rgb(192, 110, 3);
+        border: none;
+        border-radius: 10px;
+    }
+    .spacing {
+        width:80%;
+    }
+    .acontainer {
+        width: 90%;
+        text-align: right;
+        display: inline-block;
+    }
+    .ta {
+        text-decoration: none;
+    }
+    .ta:hover {
+
+        color: rgb(233, 140, 0);
+    }
+    .ta:active {
+        color: rgb(0, 0, 0);
+    }
