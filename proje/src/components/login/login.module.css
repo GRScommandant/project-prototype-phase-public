@@ -64,13 +64,29 @@
         margin-top: 10%;
         display: inline-block;
     }
-    .submitbutton {
+
+    input[type="submit"] {
+
         width: 60%;
         text-align: center;
         height:30px;
-        background-color: rgb(192, 110, 3);
+        background-color: rgb(231, 133, 3);
         border: none;
         border-radius: 10px;
+    }
+    input[type ="submit"]:hover {
+
+        background-color:rgb(231, 133, 3) ;
+    }
+    input[type="submit"]:focus {
+        outline: none;
+        box-shadow: 0 0 5px rgb(148, 148, 148); 
+    }
+
+    /* Active effect when clicked */
+    input[type="submit"]:active {
+        background-color: #965a00; 
+        transform: translateY(0); 
     }
     .spacing {
         width:80%;
