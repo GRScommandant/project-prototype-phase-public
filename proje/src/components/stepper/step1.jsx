@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from "react";
+import React, { useState } from "react";
 //import { useForm } from 'react-hook-form';
 import { Calendar } from "react-multi-date-picker";
 import persian from "react-date-object/calendars/persian";
@@ -31,7 +31,7 @@ export default function Step1({ use_form }) {
             <input type="tel" placeholder="شماره موبایل" {...register("phonenumber", { required: true, minLength: 6, maxLength: 12 })} />
             {errors.phonenumber && <span>وارد کردن شماره موبایل الزامیست</span>}
             <label>
-                <input type="radio" value="yes" {...register("radio", { required: true })} />
+                {<input type="radio" value="yes" {...register("radio", { required: true })} />} 
                 بله
                 <input type="radio" value="no" {...register("radio", { required: true })} />
                 خیر
