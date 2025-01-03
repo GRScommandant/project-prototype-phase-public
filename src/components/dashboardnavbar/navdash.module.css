@@ -1,0 +1,141 @@
+@font-face {
+    font-family: yekta;
+    src: url('../../fonts/Yekan.woff');
+}
+
+*, ::after, ::before {
+    box-sizing: border-box;
+    font-family: yekta;
+    direction: ltr;
+
+}
+
+main {
+
+}
+
+.container {
+    display: flex;
+    position: fixed;
+    padding-top: 59px;
+    top: 0;
+    left: 0;
+    width: 12%;
+    /*height: 100%;*/
+    flex-direction: column;
+    align-items: center;
+}
+
+.contentcontainer {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    transition: transform 0.3s ease; /* Smooth transition for opening/closing */
+    transform: translateX(-100%);
+    background: #fff;
+}
+
+.contentcontainer.open {
+    transform: translateX(0); /* Show sidebar when open */
+}
+
+.contents {
+    width: 100%;
+    height: 100%;
+    display: flex;
+
+    overflow: hidden;
+    flex-direction: column;
+    align-items: flex-start;
+    box-shadow: 1px 1px 1px 1px #e7e7e7;
+}
+
+.buttonse {
+    width: 100%;
+    height: 7%;
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    text-align: center;
+}
+
+.links {
+    width: 100%;
+    height: 100%;
+    padding-top: 1px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    text-align: center;
+
+}
+
+.LIst {
+    display: flex;
+
+}
+
+.space {
+    margin: 5px;
+}
+
+p {
+    margin: 0px;
+}
+
+.Buttons {
+    background-color: #0048cc;
+    border: 1px solid transparent;
+    box-sizing: border-box;
+    color: #FFFFFF;
+    cursor: pointer;
+    flex: 0 0 auto;
+    font-family: "Inter var", ui-sans-serif, system-ui, -apple-system, system-ui, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    font-size: 1.125rem;
+    font-weight: 600;
+    line-height: 1.5rem;
+    padding: .75rem 1.2rem;
+    text-align: center;
+    text-decoration: none #6B7280 solid;
+    text-decoration-thickness: auto;
+    transition-duration: .2s;
+    transition-property: background-color, border-color, color, fill, stroke;
+    transition-timing-function: cubic-bezier(.4, 0, 0.2, 1);
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    width: auto;
+}
+
+.Buttons img {
+    width: 35px; /* Adjust size as needed */
+    height: 35px; /* Set a default height */
+    transition: height 0.3s ease, width 0.3s ease; /* Smooth transition */
+}
+
+.Buttons img.shrink {
+    height: 25px; /* Height when the menu is closed */
+    width: 25px; /* Adjust width if needed */
+}
+
+.Buttons:hover {
+    background-color: #436dcc;
+}
+
+.Buttons:focus {
+    box-shadow: none;
+    outline: 2px solid transparent;
+    outline-offset: 2px;
+}
+
+@media (min-width: 768px) {
+    .Buttons {
+        padding: .75rem 1.5rem;
+    }
+}
+
+.rou {
+    direction: ltr;
+    text-align: left;
+}

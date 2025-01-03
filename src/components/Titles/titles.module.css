@@ -1,0 +1,24 @@
+@font-face {
+    font-family: yekta;
+    src: url('../../fonts/Yekan.woff');
+}
+
+:after :before {
+    font-family: yekta;
+}
+
+.headerd {
+    margin-top:8px;
+    margin: 0;
+    text-align: center;
+    display: flex;
+}
+.titlehr {
+    height: 5px;
+    color: #004d79;
+    background-color: #004d79;
+    border: 1px solid #004d79;
+    opacity: 1;
+    width: 20%;
+    margin:0px;
+}

@@ -1,0 +1,14 @@
+.post-slide {
+    position: relative;
+}
+
+.post-img {
+    position: relative;
+}
+
+.post-content {
+    position: absolute;
+    bottom: 10px;
+    background-color: rgba(0 , 0 , 0)
+}
+

@@ -1,0 +1,136 @@
+@font-face {
+    font-family: yekta;
+    src: url('../../fonts/Yekan.woff');
+}
+.container {
+    padding-top: 200px;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    align-items: center;
+    flex-wrap: nowrap;
+}
+    .contentbox {
+        width: 100%;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: nowrap;
+        justify-content: center;
+        align-items: center;
+    }
+    .contents {
+        max-width: 25rem;
+        min-width: 14.5rem;
+        min-height: 90%;
+        max-height: 100%;
+        width: 100%;
+        border: 1px;
+        padding: 18px 12px;
+        box-shadow: 1px 1px 1px 2px rgb(207, 207, 207);
+        display: flex;
+        height: 100%;
+        border-radius: 10px;
+        flex-direction: column;
+        align-items: center;
+    }
+    .ht {
+        font-family: yekta;
+        font-size:34px;
+    }
+    .textboxcon{
+        width: 100%;
+        text-align: center;
+        margin-top: 5%;
+        display: inline-block;
+    }
+    .textbox {
+        padding:0;
+        margin: 0;
+        width: 21rem;
+        height:2.5rem;
+        border-radius:5px;
+        border:1px solid rgb(207, 207, 207) ;
+        box-shadow: 1px 1px 1px rgb(207, 207, 207);
+        display: inline-block;
+        text-align: right;
+        padding-right:5px;
+    }
+    .textbox:focus{
+      outline: 2px solid rgb(0, 153, 255) ;
+      border-radius: 5px;
+    }
+    .t {
+        padding: 0;
+        margin: 0;
+        font-family: yekta;
+        direction: rtl;
+        text-align: right;
+        padding-right:5px;    
+
+    }
+    .submitb {
+        width: 100%;
+        text-align: center;
+        margin: 2.5rem 0rem;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .errorsstyle{
+     color: red;
+     font-size:14px;
+    }
+
+.subbtn {
+    position: relative;
+    display: flex
+;
+    width: 200px;
+    height: 36px;
+    border-radius: 18px;
+    background-color: #1c89ff;
+    border: solid 1px transparent;
+    color: #fff;
+    font-size: 18px;
+    font-weight: 300;
+    cursor: pointer;
+    transition: all .1s ease-in-out;
+    flex-direction: column;
+    align-items: center;
+
+
+}
+.subbtn :hover {
+    background-color: transparent;
+    border-color: #fff;
+    transition: all .1s ease-in-out;
+}
+    .spacing {
+        width:80%;
+    }
+    .acontainer {
+        width: 90%;
+        text-align: right;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-end;
+    }
+    .ta {
+        text-decoration: none;
+    }
+    .ta:hover {
+
+        color: rgb(233, 140, 0);
+    }
+    .ta:active {
+        color: rgb(0, 0, 0);
+    }
+    .hr {
+        width: 100%;
+        color: #f2eef3;
+        margin: 18px 0px;
+        opacity: 60%;
+    }

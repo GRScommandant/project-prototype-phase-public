@@ -1,0 +1,104 @@
+@font-face {
+    font-family: yekta;
+    src: url('../../fonts/Yekan.woff');
+}
+* {
+    box-sizing: border-box;
+    direction: rtl;
+    margin: 0;
+    padding: 0;
+    font-family: yekta;
+}
+.container {
+    max-width:900px;
+    max-height: 2000px;
+    width: 100%;
+    margin-top: 150px;
+    height:100%;
+    display: inline-block;
+}
+.testlist_search {
+    direction: ltr;
+    width: 100%;
+    padding: 5px 0;
+    margin-bottom: 10px;
+}
+.testlist_search_input , .testlist_search_btn {
+    width: 100%;
+}
+.testlist_search_input input {
+    direction: rtl;
+    width: 100%;
+    padding: 2px 10px;
+    border: solid 1px #ccc;
+    font-size: 16px;
+}
+.testlist_search_input input:focus {
+    border: solid 1px #aaa;
+    outline: 0;
+}
+.testlist_search_btn input {
+    padding: 2px 15px;
+    margin-left: 10px;
+    cursor: pointer;
+    border: solid 1px #ccc;
+    font-size: 16px;
+}
+.testlist_search_btn input:hover {
+    background-color: #ddd;
+}
+.testlist_search_btn input:active {
+    background-color: #bbb;
+}
+.testlist_table {
+    background-color: #eee;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    border-collapse: collapse;
+    border: solid 1px #eee;
+}
+.testlist_table td:nth-child(1) {
+    width: 5%;
+    text-align: center;
+}
+.testlist_table td:nth-child(2) {
+    width: 50%;
+    text-align: center;
+}
+.testlist_table td:nth-child(3) {
+    width: 15%;
+    text-align: center;
+}
+.table_header , .table_row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px 10px;
+    font-weight: normal;
+}
+.table_header {
+    background-color: #128cff;
+    color: #fff;
+}
+.table_row:hover {
+    background-color: rgba(0, 0, 0, 0.123) !important;
+    cursor: default;
+}
+.table_row:nth-child(even){
+    background-color: #fff;
+}
+.testlist_manage * {
+    background-color: #eeeeee00;
+    color: rgb(0, 175, 9);
+    border: solid 0px #eee;
+    padding: 2px 5px;
+    cursor: pointer;
+}
+.testlist_manage *:nth-child(2) {
+    color: red;
+}
+.testlist_manage *:hover {
+    text-decoration: underline;
+}

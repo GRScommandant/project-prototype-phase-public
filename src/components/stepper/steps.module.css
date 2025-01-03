@@ -1,0 +1,91 @@
+@font-face {
+    font-family: yekta;
+    src: url('../../fonts/Yekan.woff');
+}
+
+*, ::after, ::before {
+    box-sizing: border-box;
+    font-family: yekta;
+    direction: ltr
+}
+
+.options {
+    font-family: yekta;
+    text-align: center;
+}
+
+.Inputboxes {
+    width: 30%;
+    height: 40px;
+    text-align: right;
+    border-radius: 4px;
+    border: none;
+    box-shadow: 0.7px 0.7px 0.7px 2px rgb(207, 207, 207);
+    font-family: yekta;
+}
+.dateshow {
+    width: 9%;
+    height: 40px;
+    padding: 5px;
+    text-align: center;
+    border-radius: 4px;
+    border: none;
+    box-shadow: 0.7px 0.7px 0.7px 2px rgb(207, 207, 207);
+    font-family: yekta;
+}
+
+.customselect {
+    background-color: #004d79;
+    border: 1px solid #004d79;
+    border-radius: 4px;
+    text-align: center;
+    width: 30%;
+    height: 30px;
+    font-family: yekta;
+    color: white;
+}
+.errorsstyle{
+    color: red;
+    font-size: 14px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.select-selected {
+    background-color: DodgerBlue;
+}
+
+/* CSS */
+.buttons {
+    align-items: center;
+    background-color: #0276FF;
+    border-radius: 8px;
+    border-style: none;
+    box-shadow: rgba(255, 255, 255, 0.26) 0 1px 2px inset;
+    box-sizing: border-box;
+    color: #fff;
+    cursor: pointer;
+    display: flex;
+    flex-direction: row;
+    flex-shrink: 0;
+    font-family: yekta;
+    font-size: 100%;
+    line-height: 1.15;
+    margin: 0;
+    padding: 10px 21px;
+    text-align: center;
+    text-transform: none;
+    transition: color .13s ease-in-out, background .13s ease-in-out, opacity .13s ease-in-out, box-shadow .13s ease-in-out;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+}
+
+.buttons:active {
+    background-color: #006AE8;
+}
+
+.buttons:hover {
+    background-color: #1C84FF;
+}

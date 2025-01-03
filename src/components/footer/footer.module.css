@@ -1,0 +1,102 @@
+.container {
+width: 100%;
+height:500px;
+background-color: rgb(38, 38, 38);
+padding: 0;
+display: flex;
+z-index: 199;
+}
+.contentcontainer {
+    width: 100%;
+    height:100%;
+}
+.items {
+    display: inline-block;
+    width:30px;
+    height:30px;
+}
+.details {
+    display: flex;
+    justify-content: flex-start;
+    align-content: center;
+    direction: rtl;
+    padding-right:50px;
+    padding-top: 30px;
+    width: 40%;
+    height:30%;
+    float: right;
+}
+.detailstext {
+    display: flex;
+    direction: rtl;
+    width: 21%;
+    height:20%;
+    float: right;
+    margin-top: 0;
+    margin-right: 40px;
+    font-size:15px;
+    text-align: right;
+}
+
+
+.details2{
+    display: flex;
+    justify-content: flex-start;
+    align-content: center;
+    direction: rtl;
+    width: 50%;
+    height:30%;
+    float: right;
+}
+.copyrightcontainer {
+    height: 2%;
+    width: 100%;
+    text-align: center;
+    display: flex;
+    float: unset;
+    background-color: rgb(38, 38, 38);
+    flex-direction: column;
+    align-items: center;
+}
+.copyrightdetails {
+    width:30%;
+    height:100%;
+    margin: 0;
+    padding: 0;
+}
+
+hr {
+    margin: 10px 0; /* Add margin to the horizontal rule */
+    width:70%;
+}
+
+h3 {
+ text-align: right;
+}
+.links {
+    text-align: center;
+    text-decoration: none;
+    color:#b7b7b7;
+    padding-top: 10px;
+    padding-right: 10px;
+    font-family: yekan;
+}
+
+.detailstext p {
+    font-size: 1rem; /* Base font size */
+    line-height: 1.5; /* Improve readability */
+    color: #b7b7b7; /* Text color */
+}
+
+/* Responsive adjustments */
+@media (max-width: 600px) {
+    .detailstext p {
+        font-size: 0.7rem; /* Slightly smaller font size on small screens */
+    }
+}
+
+@media (max-width: 400px) {
+    .detailstext {
+        padding: 10px; /* Reduce padding on very small screens */
+    }
+}
